@@ -1,5 +1,4 @@
-/.pytest_cache/
+*/.pytest_cache/
+*/.idea/
 
-/python I/coh_piah.py
-/python I/jogo_nim.py
-/python I/teste_coh_piah.py
+

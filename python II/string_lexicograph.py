@@ -29,7 +29,6 @@ def lexicography(list):
     return smaller.capitalize(), bigger.capitalize()
 
 if __name__ == "__main__":
-    import sys
-    lista = ["Anne","Jammie","Bruce","Beatrice","Oleg","Leann","Regina","Laurice","Collene","Erinn","Janie","Grayce","Krissy","Angie","Madonna","Juan","Gabriel","Stanley","Maryland", "Marieva"]
-    print(shortest_and_longest_name_on_the_list(lista))
-    print(lexicography(lista))
+    list = ["Anne","Jammie","Bruce","Beatrice","Oleg","Leann","Regina","Laurice","Collene","Erinn","Janie","Grayce","Krissy","Angie","Madonna","Juan","Gabriel","Stanley","Maryland", "Marieva"]
+    print(shortest_and_longest_name_on_the_list(list))
+    print(lexicography(list))
